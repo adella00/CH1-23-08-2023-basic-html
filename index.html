@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      .p {
+        background-color: blueviolet;
+      }
+      .p2 {
+        text-transform: uppercase;
+      }
+      .p3 {
+        color: bisque;
+      }
+      .p4 {
+        font-weight: bold;
+        text-align: right;
+      }
+      .p5 {
+        color: brown;
+        background-color: aqua;
+      }
+
+      @media (max-width: 600px) {
         .p {
-            background-color: blueviolet;
+          background-color: yellow;
         }
-        
-        @media (max-width: 600px) {
-            .p {
-                background-color: yellow;
-            } 
+        .p2 {
+          font-size: 25px;
+          color: pink;
+          text-transform: lowercase;
         }
+        .p3 {
+          font-weight: bold;
+          text-transform: uppercase;
+          background-color: brown;
+        }
+        .p4 {
+          text-align: center;
+        }
+        .p5 {
+          font-size: 30;
+          text-transform: uppercase;
+          text-align: right;
+          color: purple;
+        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Hellow FSW 2</h1>
     <div class="h1 p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
     <div class="h1 p5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic corporis excepturi neque? Dolorum saepe cum magni possimus sed dolore asperiores quidem odio quisquam iusto nemo voluptatum, ullam hic, placeat nisi.</div>
-</body>
+  </body>
 </html>
